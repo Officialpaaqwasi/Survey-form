@@ -11,11 +11,247 @@
    <section class="second-page">
 
     <form>
-     <fieldset>
-      <label>Name <text font-color ="red">&#42</text></label><br>
+     <!--Name-->
+     <section class="name">
+      <label>Name <text font-color="red">&#42</text></label><br>
       <input placeholder="First" required>
       <input placeholder="Last" required>
-     </fieldset>
+     </section>
+      
+     
+     <!--Address-->
+     <section class="address">
+      <label>Address &#42<text font-color="red">&#42</text></label><br>
+      <input placeholder="Street Address" required>
+      <input placeholder="City" required>
+      <input placeholder="Region" required>
+      <input placeholder="Postal/ Zip Code" required>
+
+      <!--Country-->
+      <select class="country">
+       <option>Ghana</option>
+      </select >
+
+      <!--Phone Number-->
+      <section class="phone">
+       <label>Phone &#42</label><br>
+       <input placeholder="########" type="number" required>
+      </section>
+
+      <!--Account Number-->
+      <section class="Account-number">
+       <label>Account Number 
+        (located in the top right hand corner of your billing statement in bold) &#42</label>
+
+        <input required>
+      </section>
+
+
+      <!--Email-->
+      <section class="email-address">
+       <label>Email Address &#42</label>
+       <input type="email" required>
+      </section>
+
+      <div>
+      <p>1). How long have you been a member of Maxes Company 
+       &#42
+      </p>
+
+      
+
+       <div>
+        <input type="radio" name="check">
+        <label>Less than a year</label>
+       </div>
+       
+       <div>
+        <input type="radio" name="check">
+        <label>1-5 years</label>
+       </div>
+       
+       <div>
+        <input type="radio" name="check">
+        <label>6-10 years</label>
+       </div>
+       
+       <div>
+        <input type="radio" name="check">
+        <label>11-19 years</label>
+       </div>
+       
+       <div>
+        <input type="radio" name="check">
+        <label>20+ years</label>
+       </div>
+      </div>
+      
+
+      <!--AGE-->
+
+      <div>
+       <p> 2). Which of the following categories includes your age?</p>
+
+       <div>
+        <input type="radio" name="age">
+        <label>18-34 years</label>
+       </div>
+
+       <div>
+        <input type="radio" name="age">
+        <label>35-44 years</label>
+       </div>
+
+       <div>
+        <input type="radio" name="age">
+        <label>45-54 years</label>
+       </div>
+
+       <div>
+        <input type="radio" name="age">
+        <label>55-64 years</label>
+       </div>
+
+       <div>
+        <input type="radio" name="age">
+        <label>65+ years</label>
+       </div>
+
+       <div>
+        <input type="radio" name="age">
+        <label>Prefer not to answer.</label>
+       </div>
+
+      </div>
+      
+      
+     </section>
+      
+     <div>
+      <p>3). In the last year, did you have any contact with 
+       us? If you answered No, please skip to question #8 &#42
+      </p>
+
+      <div>
+       <input type="radio" name="with-us">
+       <label>Yes</label>
+      </div>
+
+      <div>
+       <input type="radio" name="with-us">
+       <label>Nos</label>
+      </div>
+     </div>
+     
+
+     <div>
+      <p>4). And what was the main reason for your contact with 
+       us?
+      </p>
+
+      <div>
+       <input type="checkbox" name="reason">
+       <label>Account / Billing</label>
+      </div>
+
+      <div>
+       <input type="checkbox" name="reason">
+       <label>New Service / Transfer Service</label>
+      </div>
+
+      <div>
+       <input type="checkbox" name="reason">
+       <label>Outage</label>
+      </div>
+
+       <div>
+        <input type="checkbox" name="reason">
+        <label>Right-of-Way</label>
+       </div>
+
+        <div>
+         <input type="checkbox" name="reason">
+         <label>General Question</label>
+        </div>
+
+         <div>
+          <input type="checkbox" name="reason">
+          <label>GeneralComplaint</label>
+         </div>
+     </div>
+
+
+     <div>
+      <p>5). Rate your satisfaction with your contact experience using
+       a 10-point scale on which 1 means "very dissatisfied" and 10 means
+       "very satisfied"
+      </p>
+
+       <div>
+        <input type="checkbox" name="point">
+        <label>1</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>2</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>3</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>4</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>5</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>6</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>7</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>8</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>9</label>
+       </div>
+       <div>
+        <input type="checkbox" name="point">
+        <label>10</label>
+       </div>
+     </div>
+
+
+     <div>
+      <p>6). If General, please describe the reason for contacting us.</p>
+      <input type="text" max="100">
+     </div>
+
+     <div>
+      <p>7). If General in nature, was the reason for contacting
+       us resolved?
+      </p>
+      <div>
+       <input type="radio" name="resolved">
+       <label>Yes</label>
+      </div>
+      <div>
+       <input type="radio" name="resolved">
+       <label>No</label>
+      </div>
+     </div>
+
+
+     
+       
     </form>
 
    </section>
