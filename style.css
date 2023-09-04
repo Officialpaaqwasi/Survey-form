@@ -99,3 +99,108 @@ section ::placeholder{
     margin-right: 1rem;
     border: 2px solid red;
 }
+
+.country{
+  display: flexbox;
+  width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid rgb(228, 77, 77);
+}
+
+
+/* PHONE*/
+.phone{
+  padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  #phone{
+    display: flexbox;
+      width: 15rem;
+      height: 2rem;
+      border-radius: 5px;
+      margin-top: 1em;
+      margin-right: 1rem;
+      border: 2px solid rgb(228, 77, 77);
+  }
+
+.account-number {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding-top: 1em;
+    padding-bottom: 5rem;
+  
+}
+
+#account-number{
+  display: flexbox;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid rgb(228, 77, 77);
+}
+
+.email-address{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 1em;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+}
+
+#email-address{
+  display: flexbox;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 2rem;
+    border: 2px solid rgb(228, 77, 77);
+}
+
+
+
+
+
+
+
+
+
+/*QUESTIONS*/
+
+p{
+  text-transform: capitalize;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+}
+
+label{
+  font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+}
+
+.q1{
+  display: contents;
+ 
+}
+
+.q1-ans{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+
+#q6{
+  
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(228, 77, 77);
+}
