@@ -6,26 +6,33 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
  <body>
-  <section class="fist-page">
 
+
+
+
+  
    <section class="second-page">
 
-    <form>
+    <form id="form-line">
+
+      <h1>Membership Satisfaction Survey</h1>
+
+
      <!--Name-->
      <section class="name">
-      <label>Name <text font-color="red">&#42</text></label><br>
-      <input placeholder="First" required>
-      <input placeholder="Last" required>
+      <label>Name <text style="color: red;">&#42</text></label><br>
+      <input placeholder="First" id="first-name" required>
+      <input placeholder="Last" id="second-name" required>
      </section>
       
      
      <!--Address-->
      <section class="address">
-      <label>Address &#42<text font-color="red">&#42</text></label><br>
-      <input placeholder="Street Address" required>
-      <input placeholder="City" required>
-      <input placeholder="Region" required>
-      <input placeholder="Postal/ Zip Code" required>
+      <label>Address <text style="color: red;">&#42&#42</text></label><br>
+      <input placeholder="Street Address" id="street-add" required>
+      <input placeholder="City" id="city" required>
+      <input placeholder="Region" id="region" required>
+      <input placeholder="Postal/ Zip Code" id="postal" required>
 
       <!--Country-->
       <select class="country">
@@ -596,17 +603,21 @@
      </div>
 
      <div>
-      <p>Do you have any suggestions for improvements
+      <p>13).Do you have any suggestions for improvements
        or comments?
       </p>
       <textarea></textarea>
+     </div>
+
+     <div>
+      <button>SEND</button>
      </div>
        
     </form>
 
    </section>
 
-  </section>
+  
  </body>
 
 </html>

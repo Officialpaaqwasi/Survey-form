@@ -1,0 +1,101 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+body{
+ background-color: #fff;
+}
+form{
+  color: black;
+  background-color: aquamarine;
+  width: 890px;
+  height: fit-content;
+  position: absolute;
+  padding-left: 50px;
+  margin-left: 180px;
+}
+
+h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+  
+}
+
+
+/*  NAME*/
+.name {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#first-name{
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin-top: 3px;
+  margin-right: 10rem;
+  border: 2px solid red;
+}
+
+#second-name {
+  width: 15rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  
+  border: 2px solid red;
+}
+
+section ::placeholder{
+  padding-left: 15px;
+}
+
+
+/*Address*/
+.address{
+ 
+    padding-bottom: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#street-add{
+  width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid red;
+}
+
+#city{
+  width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid red;
+}
+
+#region{
+  width: 10rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid red;
+}
+
+#postal{
+  width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 1rem;
+    border: 2px solid red;
+}
