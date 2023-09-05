@@ -209,3 +209,27 @@ label{
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
+
+#textarea{
+  width: 25rem;
+    height: 10rem;
+    border-radius: 5px;
+    margin-top: 1em;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid rgb(228, 77, 77);
+    row-gap: 50;
+    column-gap: 25;
+}
+
+
+#btn{
+  background-color: red;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 2rem;
+ display: flexbox;
+ margin-left: 50%;
+ margin-right: 50%;
+ margin-bottom: 2rem;
+}
